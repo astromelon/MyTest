@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"   		>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical" 			>
+        
+        <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:background="#6495ED"
+	        android:gravity="center"
+	        android:text="MyTest"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical" 			>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal" 			>
+        <Button android:id="@+id/btn1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="전체자격증검색" 	/>
+        <Button android:id="@+id/btn2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="기업별검색" 	/>
+        <Button android:id="@+id/btn3"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="외국어시험검색" 	/>
+	</LinearLayout>
+	
+	<LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal" 			>
+        <Button android:id="@+id/btn4"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="분야별검색" 	/>
+        <Button android:id="@+id/btn5"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="금액별검색" 	/>
+        <Button android:id="@+id/btn6"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="고객만족" 	/>
+	</LinearLayout>
+	<LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal" 			>
+        <Button android:id="@+id/btn7"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="자격증시험정보" 	/>
+        <Button android:id="@+id/btn8"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="자료실" 	/>
+        <Button android:id="@+id/btn9"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="마이페이지" 	/>
+	</LinearLayout>    
+</LinearLayout>
